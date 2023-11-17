@@ -1,0 +1,97 @@
+body{
+display : flex;
+gap : 5em;
+flex-wrap: wrap;
+}
+
+
+
+
+
+header{
+    width: 100%;
+    padding: 10px 0;
+}
+
+.divButtons {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    justify-content: center; 
+}
+
+.botãoMasculino{
+    background-color: #000000; 
+    color: #fff;
+    padding: 0.5em 1em;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.botãoFeminino{
+    background-color: #000000; 
+    color: #fff;
+    padding: 0.5em 1em;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.botãoTodos{
+    background-color: #000000; 
+    color: #fff;
+    padding: 0.5em 1em;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.botãoSair{
+    background-color: #000000; 
+    color: #fff;
+    padding: 0.5em 1em;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+  .artigo {
+    width: 15em;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin: auto;
+    margin-top: 1em;
+    padding: 1em;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .artigo:hover {
+    transform: scale(1.05);
+  }
+  
+  .img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    margin-bottom: 1em;
+  }
+  
+  #titulo {
+    margin-top: 0;
+    color: #000000;
+  }
+  
+  #saibaMais {
+    padding: 5px;
+    margin : 12px;
+    background-color: black;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    
+  }
+  
+  #saibaMais:hover {
+    color: #000000;
+  }
+
+  
