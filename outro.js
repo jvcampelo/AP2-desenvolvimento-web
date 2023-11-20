@@ -2,7 +2,7 @@ const parametros = new URLSearchParams(window.location.search);
 if (!sessionStorage.getItem('logado')){
     alert("Acesso não autorizado")
     window.location = '/';
-}
+} 
 
 const url = "https://botafogo-atletas.mange.li/" + parametros.get('id');
 const descricao = document.getElementById('descricao')
