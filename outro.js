@@ -31,7 +31,7 @@ const pegar_coisas = async (caminho) => {
     return dados;
 }
 
-botão.onclick = () => window.location = '/atletas.html'
+botão.onclick = () => window.location = '/AP2-DevWeb/atletas.html'
 
 
 popularPagina();
